@@ -1,0 +1,101 @@
+@font-face {font-family: "DS-Digital"; src: url("//db.onlinewebfonts.com/t/63f874d192fb3892d88d5e26f942b5e2.eot"); src: url("//db.onlinewebfonts.com/t/63f874d192fb3892d88d5e26f942b5e2.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/63f874d192fb3892d88d5e26f942b5e2.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/63f874d192fb3892d88d5e26f942b5e2.woff") format("woff"), url("//db.onlinewebfonts.com/t/63f874d192fb3892d88d5e26f942b5e2.ttf") format("truetype"); }
+
+#app {
+	display: block;
+	margin: 0 auto;
+	padding: 20px 10px;
+	width: 300px;
+	border: 8px solid rgba(200,0,0,0.4);
+	border-radius: 40px;
+	background-color: beige;
+	box-shadow: 0 0 16px rgba(0,0,0,0.6);
+	font-family: 'Segoe UI'
+}
+
+.controller {
+	display: inline-block;
+	margin: 0 auto;
+	width: 150px;
+}
+
+.controller label {
+	display: block;
+	text-align: center;
+	margin-bottom: 12px;
+	font-size: 20px;
+}
+
+.flex-area {
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 10px
+}
+
+.controller span {
+	font-family: DS-Digital;
+	font-size: 24px;
+}
+
+.controller button {
+	outline: none;
+	cursor: pointer;
+	border: 0;
+	border-radius: 50%;
+	background-color: black;
+	width: 30px;
+	height: 30px;
+}
+
+.controller button:hover {
+	background-color: rgba(200,0,0,0.6);
+	box-shadow: 0 0 6px rgba(0,0,0,0.6)
+}
+
+.controller button i {
+	color: white;
+}
+
+#timer {
+	display: block;
+	margin: 0 auto;
+}
+
+#timer-label {
+	display: block;
+	text-align: center;
+	font-size: 42px;
+	margin-bottom: 12px;
+}
+
+#time-left {
+	display: block;
+	text-align: center;
+	font-family: 'DS-Digital';
+	font-size: 80px;
+}
+
+#timer-btn-area {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 20px;
+}
+
+#timer button {
+	outline: none;
+	border: 0;
+	border-radius: 4px;
+	cursor: pointer;
+	background-color: #399;
+	padding: 6px;
+	width: 60px;
+	height: 50px;
+}
+
+#timer button:hover {
+	box-shadow: 0 0 8px rgba(0,0,0,0.6)
+}
+
+#timer button i {
+	width:30px;
+	color: white
+}
